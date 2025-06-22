@@ -1,10 +1,10 @@
-# 🚦 San Diego Traffic Collision Severity Prediction
+# San Diego Traffic Collision Severity Prediction
 
 This project uses machine learning to analyze traffic collision data from San Diego and predict the severity of crashes — including whether they result in fatalities, injuries, or no harm. It also identifies key risk factors like time of day, location (police beat), and date.
 
 ---
 
-## 📊 Project Overview
+##  Project Overview
 
 - **Goal**: Predict crash severity (`fatal`, `injury`, `none`) from traffic report data
 - **Tech**: Python, scikit-learn, pandas, seaborn, imbalanced-learn
@@ -12,7 +12,7 @@ This project uses machine learning to analyze traffic collision data from San Di
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 - Cleaned and preprocessed real-world traffic data
 - Balanced imbalanced classes using SMOTE
@@ -22,7 +22,7 @@ This project uses machine learning to analyze traffic collision data from San Di
 
 ---
 
-## 🧠 Insights
+## Insights
 
 - **Police beat**, **hour**, and **month** are the top predictors of severity
 - The model performs well at identifying high-risk collisions
@@ -30,8 +30,8 @@ This project uses machine learning to analyze traffic collision data from San Di
 
 ---
 
-## 📁 File Structure
-📂 SD-Traffic-Collision-Analysis/
+##  File Structure
+ SD-Traffic-Collision-Analysis/
 │
 ├── notebooks/
 │   ├── 01_model_tuning.ipynb
@@ -51,7 +51,7 @@ This project uses machine learning to analyze traffic collision data from San Di
 
 ---
 
-## 🛠 How to Run
+##  How to Run
 
 1. Clone the repo:
    ```bash
@@ -64,7 +64,7 @@ Launch the notebook:
    jupyter notebook notebooks/crash_analysis.ipynb
 ---
 
-## 📈 Example Results
+## Example Results
 | Class   | Precision | Recall | F1-Score |
 |---------|-----------|--------|----------|
 | Fatal   | 1.00      | 0.73   | 0.84     |
@@ -73,7 +73,7 @@ Launch the notebook:
 
 ---
 
-## 🌐 Future Work
+## Future Work
 Interactive dashboard using Streamlit
 
 Risk heatmap by police beat and time
